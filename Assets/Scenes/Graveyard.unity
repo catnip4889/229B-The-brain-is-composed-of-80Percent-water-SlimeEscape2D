@@ -439,6 +439,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1453731698081424819, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453731698081424819, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453731698081424819, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 230.5694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453731698081424819, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -57.692383
+      objectReference: {fileID: 0}
     - target: {fileID: 1597547311036894960, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
@@ -522,6 +538,50 @@ PrefabInstance:
     - target: {fileID: 1824703714754735622, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469635715762003, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469635715762003, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469635715762003, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 140.23346
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332469635715762003, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -57.692383
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341041134774545142, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341041134774545142, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341041134774545142, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 51.692383
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341041134774545142, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -57.692383
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490157743543258623, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490157743543258623, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490157743543258623, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4515236346311004154, guid: 37f105450fb1ce04a8ca8467118fe280, type: 3}
       propertyPath: m_Name
@@ -1306,9 +1366,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 191858447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74.4, y: 188.8}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -417, y: -27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &523924490
@@ -1358,8 +1418,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1397,7 +1457,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -181.79503, w: 0}
+  m_margin: {x: 0, y: 0, z: -833.0039, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
